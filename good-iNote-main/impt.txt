@@ -1,0 +1,29 @@
+server/middlewares
+fetchuser.js::: gets user details using afetr verifying jwt token
+
+server/models
+note.js:::note model 
+note has title, user who created it, content, tags
+
+user.js:::user model
+user has its name, username, email, passwd
+
+server/routes
+notes.js::: has fetchnotes,viewnote,createnote,update,deletenote
+
+users.js:::has routes:=createuser,login
+
+
+server/
+db.jsconnects to db
+
+
+server/
+index.js:: main file
+
+
+
+client/components
+*********search doesnot work
+has components like :: about, addnote, sigup,login etc
+cotext has the function to be called to get the data
